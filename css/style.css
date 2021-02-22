@@ -1,0 +1,434 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    width: 140px;
+    height: 50px;
+    background: #2B8FC4;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 17px;
+    color: #fff;
+    outline: none;
+}
+
+.btn:hover,
+.btn:focus{
+    color: #2B8FC4;
+    background: #dfdfdf;
+}
+
+/* Header CSS */
+
+.header-wrapper{
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.header-container{
+    position: relative;
+}
+
+/* Navigation CSS */
+
+#my-Navigation{
+    width: 100%;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 2;
+}
+
+#my-Navigation .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#my-Navigation .custom-active{
+    background: #2B8FC4;
+    border-radius: 5px;
+}
+
+#my-Navigation a{
+    color: #fff;
+}
+
+#my-Navigation a:hover,
+#my-Navigation a:focus{
+    color: #dfdfdf;
+}
+
+/* Banner CSS */
+
+.banner-text{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.banner-text h1{
+    font-size: 30px;
+}
+
+.banner-text p{
+    font-size: 18px;
+    line-height: 25px;
+    padding: 10px 0 20px;
+}
+
+.banner-btn{
+    width: 140px;
+    height: 50px;
+    font-size: 17px;
+    outline: none;
+}
+
+/* Three Box Section CSS */
+
+.black-wrapper{
+    background: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.black-wrapper .box{
+    text-align: center;
+}
+
+.black-wrapper .box .fa{
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+.black-wrapper .box p{
+    color: grey;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.black-wrapper .box button{
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+/* Dark Wrapper CSS */
+
+.dark-wrapper{
+    background: #101214;
+    padding: 30px 0;
+}
+
+/* Right Side CSS */
+
+.big-right-box{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.big-right-box h3{
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.big-right-box p{
+    color: grey;
+    padding: 20px 0 10px;
+    line-height: 25px;
+}
+
+.big-right-box a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.big-right-box button{
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+}
+
+/* Right Bottom Left CSS */
+
+.right-bottom-left{
+    padding-top: 30px;
+    color: #fff;
+}
+
+.right-bottom-left p{
+    font-size: 12px;
+    line-height: 25px;
+    color: grey;
+    clear: both;
+}
+
+.para-1{
+    padding-bottom: 30px;
+}
+
+.right-bottom-left hr{
+    margin-bottom: 40px;
+}
+
+.para-2{
+    padding: 20px 0 0;
+}
+
+.right-bottom-left .no-btn{
+    float: left;
+    width: 90px;
+    height: 32px;
+    font-size: 14px;
+}
+
+.right-bottom-left h5{
+    float: left;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+/* Right Bottom Right CSS */
+
+.right-bottom-right{
+    padding-top: 30px;
+    color: #fff;
+}
+
+.right-bottom-right h3{
+    font-weight: 100;
+}
+
+.right-bottom-right h5{
+    position: relative;
+    top: -10px;
+}
+
+.right-bottom-right .p-relative{
+    position: relative;
+    top: -25px;
+    margin: 0;
+}
+
+.right-bottom-right a{
+    color: grey;
+    display: inline-block;
+}
+
+.right-bottom-right .fa{
+    float: left;
+    font-size: 5px;
+    padding: 7px;
+}
+
+.right-bottom-right p{
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.right-bottom-right hr{
+    position: relative;
+    top: -20px;
+}
+
+/* Left Side CSS */
+
+.links{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.links ul{
+    margin: 0;
+    padding: 0;
+}
+
+.links ul li{
+    list-style: none;
+    border-bottom: 1px solid #333333;
+    padding: 7px 0;
+}
+
+.links .fa{
+    font-size: 5px;
+    padding: 0 7px;
+    position: relative;
+    top: -3px;
+}
+
+.links li a{
+    color: #fff;
+    font-weight: 100;
+}
+
+.no-border{
+    border: 0!important;
+}
+
+/* Left Side Bottom CSS */
+
+.left-side-bottom{
+    clear: both;
+    margin-top: 10px;
+}
+
+.left-side-bottom h3{
+    color: #fff;
+    font-weight: 100;
+}
+
+.lb-box{
+    margin-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+}
+
+.lb-box img{
+    float: left;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.lb-box p{
+    font-size: 100%;
+    line-height: 28px;
+    color: grey;
+}
+
+.rm-btn{
+    width: 130px;
+    height: 45px;
+    background: #2B8FC4;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Footer CSS */
+
+.footer{
+    padding-top: 30px;
+    margin-top: 30px;
+    text-align: center;
+    border-top: 1px solid #333333;
+    font-size: 14px;
+}
+
+.footer a{
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+/* Media Query */
+
+@media only screen and (max-width:991px){
+    .header-wrapper{
+        height: 100vh;
+    }
+    
+    .banner-text{
+        width: 100%;
+    }
+
+    .black-wrapper{
+        padding-bottom: 70px;
+    }
+    .mq-margin{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .links .no-border{
+        border-bottom: 1px solid #333333!important;
+    }
+
+    .lb-box {
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    #my-Navigation .navbar-toggle{
+        border: 0;
+    }
+    #my-Navigation .icon-bar{
+        background: #fff;
+    }
+
+    .banner-text h1{
+        font-size: 25px;
+    }
+    .banner-text p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:490px){
+    .banner-text h1{
+        font-size: 20px;
+    }
+    .banner-text p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .banner-text button, .black-wrapper .box button, .big-right-box button, .rm-btn{
+        width: 100%;
+    }
+
+    .black-wrapper .box .fa {
+        font-size: 35px;
+        padding: 25px 0;
+    }
+    .black-wrapper .box p {
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .black-wrapper .box h3{
+        font-size: 22px;
+    }
+
+    .big-right-box h3 {
+        font-size: 22px;
+    }
+    .big-right-box p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .right-bottom-left .no-btn{
+        width: 100%;
+        float: none;
+    }
+    .right-bottom-left h5{
+        float: none;
+        font-size: 14px;
+    }
+
+    .lb-box{
+        font-size: 14px;
+    }
+    .lb-box p{
+        line-height: 20px;
+    }
+
+    .footer{
+        font-size: 12px;
+    }
+}
